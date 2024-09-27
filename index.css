@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+/* layout */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: whitesmoke;
+}
+
+.oldagram {
+  width: 400px;
+  height: 200px;
+}
+
+.main-container {
+  background-color: #fff;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: end;
+  gap: 70px;
+  padding: 20px;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.vangogh {
+  width: 70px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.avatar1 {
+  display: flex;
+  gap: 1px;
+}
+
+.old1 {
+  width: 100%;
+}
+
+p {
+  margin-top: 35px;
+}
+
+.icon1 {
+  width: 60;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.icon2 {
+  width: 60;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.icon3 {
+  width: 60;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.icon1:hover {
+  background-color: red;
+  fill: red;
+  border-radius: 65%;
+}
+
+.icon1:active {
+  background-color: red;
+  border-radius: 65%;
+}
+
+.likes {
+  margin-top: 1px;
+  padding: 10px;
+}
+
+.comment {
+  margin-top: 1px;
+  padding: 10px;
+}
+
+.gustave {
+  width: 70px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.avatar2 {
+  display: flex;
+  gap: 1px;
+}
+
+.old2 {
+  width: 100%;
+}
+
+.ducreux {
+  width: 70px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.old3 {
+  width: 100%;
+}
+
+/* typography */
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+}
